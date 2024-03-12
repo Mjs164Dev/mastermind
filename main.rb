@@ -2,7 +2,7 @@ class Mastermind
   def initialize
     @secret_code = Array.new(4) { rand(1..6) }
     @attempts = 0
-    @max_attempts = 10
+    @max_attempts = 12
   end
 
   def play
